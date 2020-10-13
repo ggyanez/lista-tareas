@@ -68,7 +68,7 @@ ulFiltros.addEventListener('click', (event)=>{
         return;
     }
 
-    anchorFiltros.foreach( elem => elem.classList.remove('selected'));
+    anchorFiltros.forEach( elem => elem.classList.remove('selected'));
     event.target.classList.add('selected');
 
     for (const elemento of divTodoList.children) {
